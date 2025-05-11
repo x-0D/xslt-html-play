@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../styles/inventory.xslt"?>
+<inventory>
+  <product id="1">
+    <name>Enterprise CRM Suite</name>
+    <category>Software</category>
+    <price>1999.99</price>
+    <stock>Unlimited</stock>
+    <description>Complete customer relationship management solution for large enterprises</description>
+  </product>
+  <product id="2">
+    <name>Small Business CRM</name>
+    <category>Software</category>
+    <price>499.99</price>
+    <stock>Unlimited</stock>
+    <description>Streamlined CRM solution for small to medium businesses</description>
+  </product>
+  <product id="3">
+    <name>CRM Mobile Add-on</name>
+    <category>Software Extension</category>
+    <price>199.99</price>
+    <stock>Unlimited</stock>
+    <description>Mobile access extension for existing CRM solutions</description>
+  </product>
+  <product id="4">
+    <name>CRM Implementation Service</name>
+    <category>Service</category>
+    <price>2500.00</price>
+    <stock>Limited</stock>
+    <description>Professional implementation and setup of CRM systems</description>
+  </product>
+  <product id="5">
+    <name>CRM Training Package</name>
+    <category>Service</category>
+    <price>750.00</price>
+    <stock>Available</stock>
+    <description>Comprehensive training for staff on CRM usage and best practices</description>
+  </product>
+</inventory>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../styles/leads.xslt"?>
+<leads>
+  <lead id="1">
+    <name>James Wilson</name>
+    <email>james.w@example.com</email>
+    <phone>555-111-2222</phone>
+    <company>Tech Solutions Inc</company>
+    <source>Website</source>
+    <status>New</status>
+    <date_created>2023-11-01</date_created>
+    <notes>Interested in enterprise software solutions</notes>
+  </lead>
+  <lead id="2">
+    <name>Lisa Thompson</name>
+    <email>lisa.t@example.com</email>
+    <phone>555-222-3333</phone>
+    <company>Global Retail Ltd</company>
+    <source>Trade Show</source>
+    <status>Contacted</status>
+    <date_created>2023-10-25</date_created>
+    <notes>Follow up about POS system integration</notes>
+  </lead>
+  <lead id="3">
+    <name>David Martinez</name>
+    <email>dmartinez@example.com</email>
+    <phone>555-333-4444</phone>
+    <company>Healthcare Solutions</company>
+    <source>Referral</source>
+    <status>Qualified</status>
+    <date_created>2023-10-15</date_created>
+    <notes>Looking for patient management system</notes>
+  </lead>
+  <lead id="4">
+    <name>Jennifer Adams</name>
+    <email>jennifer.a@example.com</email>
+    <phone>555-444-5555</phone>
+    <company>Education First</company>
+    <source>Email Campaign</source>
+    <status>New</status>
+    <date_created>2023-11-05</date_created>
+    <notes>Requested information about learning management systems</notes>
+  </lead>
+  <lead id="5">
+    <name>Thomas Clark</name>
+    <email>tclark@example.com</email>
+    <phone>555-555-6666</phone>
+    <company>Financial Services Inc</company>
+    <source>LinkedIn</source>
+    <status>Contacted</status>
+    <date_created>2023-10-20</date_created>
+    <notes>Interested in financial reporting tools</notes>
+  </lead>
+</leads>

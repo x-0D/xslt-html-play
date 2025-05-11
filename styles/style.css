@@ -1,0 +1,150 @@
+/* Main Styles for B2C CRM System */
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-color: #ecf0f1;
+  --dark-color: #34495e;
+  --success-color: #2ecc71;
+  --warning-color: #f39c12;
+  --danger-color: #e74c3c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: var(--dark-color);
+  background-color: var(--light-color);
+}
+
+header {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Navigation Tabs */
+.tab-navigation {
+  display: flex;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--dark-color);
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  color: var(--primary-color);
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Content Containers */
+.tab-content {
+  display: none;
+  padding: 1rem 2rem;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Cards for displaying data */
+.card {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.card-detail {
+  margin-bottom: 0.5rem;
+}
+
+.card-detail span {
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+/* Status indicators */
+.status {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.status-active, .status-new, .status-qualified {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.status-inactive {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.status-contacted {
+  background-color: var(--warning-color);
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tab-navigation {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  
+  .tab-button {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .tab-content {
+    padding: 1rem;
+  }
+}

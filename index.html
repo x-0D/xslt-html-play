@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B2C CRM System</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="module" src="js/client.mjs"></script>
+</head>
+<body>
+  <header>
+    <h1>B2C CRM System</h1>
+  </header>
+  
+  <nav class="tab-navigation">
+    <button class="tab-button active" data-tab="customers">Customers</button>
+    <button class="tab-button" data-tab="leads">Leads</button>
+    <button class="tab-button" data-tab="inventory">Inventory</button>
+  </nav>
+  
+  <main id="content-container">
+    <div id="customers-tab" class="tab-content active">
+      <!-- Customer data will be loaded here -->
+    </div>
+    
+    <div id="leads-tab" class="tab-content">
+      <!-- Lead data will be loaded here -->
+    </div>
+    
+    <div id="inventory-tab" class="tab-content">
+      <!-- Inventory data will be loaded here -->
+    </div>
+  </main>
+  
+  <footer>
+    <p>B2C CRM System - SOAP with XML and XSLT</p>
+  </footer>
+</body>
+</html>

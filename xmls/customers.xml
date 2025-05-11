@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../styles/customers.xslt"?>
+<customers>
+  <customer id="1">
+    <name>John Smith</name>
+    <email>john.smith@example.com</email>
+    <phone>555-123-4567</phone>
+    <address>123 Main St, Anytown, USA</address>
+    <status>Active</status>
+    <segment>Premium</segment>
+    <last_purchase>2023-10-15</last_purchase>
+  </customer>
+  <customer id="2">
+    <name>Sarah Johnson</name>
+    <email>sarah.j@example.com</email>
+    <phone>555-234-5678</phone>
+    <address>456 Oak Ave, Somewhere, USA</address>
+    <status>Active</status>
+    <segment>Standard</segment>
+    <last_purchase>2023-11-02</last_purchase>
+  </customer>
+  <customer id="3">
+    <name>Michael Brown</name>
+    <email>mbrown@example.com</email>
+    <phone>555-345-6789</phone>
+    <address>789 Pine Rd, Elsewhere, USA</address>
+    <status>Inactive</status>
+    <segment>Basic</segment>
+    <last_purchase>2023-08-20</last_purchase>
+  </customer>
+  <customer id="4">
+    <name>Emily Davis</name>
+    <email>emily.d@example.com</email>
+    <phone>555-456-7890</phone>
+    <address>101 Cedar Ln, Nowhere, USA</address>
+    <status>Active</status>
+    <segment>Premium</segment>
+    <last_purchase>2023-11-10</last_purchase>
+  </customer>
+  <customer id="5">
+    <name>Robert Wilson</name>
+    <email>rwilson@example.com</email>
+    <phone>555-567-8901</phone>
+    <address>202 Maple Dr, Anywhere, USA</address>
+    <status>Active</status>
+    <segment>Standard</segment>
+    <last_purchase>2023-09-28</last_purchase>
+  </customer>
+</customers>
